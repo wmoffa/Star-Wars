@@ -1,0 +1,81 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+
+    	<title>index.html</title>
+       <meta charset="utf-8">
+       <meta charset="lang=en.us">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+
+       <!-- Bootstrap and CSS-->
+       <link rel="stylesheet" type="text/css" href="assets/css/reset.css">   
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+       <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 	
+
+       <!-- Javascript -->
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+       <script type="text/javascript" src="assets/js/games.js"></script>
+
+    </head>
+
+    <body>
+
+
+        <div class="panelEnemie panelGroup" style="background-color: blue"></div>
+        <div class="panelDefender panelGroup" style="background-color: green"></div>
+        <div class=container>
+            <!-- initial selection row -->
+            <div clase="row">
+
+                <!-- start of the left column -->
+                <div class='col-md-6'>
+                    <div class='row'>
+                        <div class='col-md-12 panelAttention'><h3>Please Pick A Defender</h3></div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-md-3 panelOpen0 panelGroup'></div>
+                        <div class='col-md-3 panelOpen1 panelGroup'></div>
+                        <div class='col-md-3 panelOpen2 panelGroup'></div>
+                        <div class='col-md-3 panelOpen3 panelGroup'></div>
+                        <!-- enemies yet to be fought -->
+                    </div>
+
+                    <div class='row'>
+                        <div class='col-md-3 panelEnemy0 enemyGroup'></div>
+                        <div class='col-md-3 panelEnemy1 enemyGroup'></div>
+                        <div class='col-md-3 panelEnemy2 enemyGroup'></div>
+                        <div class='col-md-3 panelEnemy3 enemyGroup'></div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-md-12'><hr></div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-md-3 actionGroup panelDefender0'></div>
+                        <div class='col-md-3 actionGroup'><br>
+                            <BUTTON class='attackButton'>Attack</BUTTON>
+                        </div>
+                        <div class='col-md-3 actiongroup panelOpponent0'></div>
+                        <div class='col-md-3 '></div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-md-12 gameMessage'></div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-md-4'>
+                            <button class='resetButton'>Reset</button>
+                        </div>
+                    </div>
+                </div>
+               <!-- start of the right column -->
+               <br><br><br>
+                <div class='logo'>
+                     <img src="assets/images/starwars.png">
+               </div>               
+            </div>
+
+
+
+        </body>
+
+    </head>

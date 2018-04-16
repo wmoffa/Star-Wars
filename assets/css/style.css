@@ -1,0 +1,52 @@
+body {
+      background-image: url("../images/space.jpeg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+}
+dl {
+	float: left;
+
+}
+dd {
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	background-color: blue;
+	color: white;
+}
+
+.panelAttention {
+	color: lightblue;
+	position: absolute
+	top: 20px;
+}
+
+.gameMessage {
+	position: absolute;
+	top: 400px;
+	color: pink;
+}
+
+.panelOpen {
+	position: absolute;
+	top: 60px;
+}
+
+.panelEnemy {
+	position: absolute;
+	top: 60px;
+}
+.attackButton {
+	background-color: red;
+	color: white;
+	height: 75px;
+	width: 100px;
+	vertical-align: middle;
+}
+
+.logo {
+	float: right;
+	top: 500px;
+}
